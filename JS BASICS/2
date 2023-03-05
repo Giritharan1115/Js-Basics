@@ -1,0 +1,16 @@
+let cargoHold = ['oxygen tanks','space suits' , 'parrots' , 'instruction manual' , 'meal packs' , 'slinky' , 'security blanket']
+//first
+cargoHold[5]='space tether'
+console.log(cargoHold)
+//second
+cargoHold.pop()
+console.log(cargoHold)
+//third
+cargoHold.shift()
+console.log(cargoHold)
+//fourth
+cargoHold.unshift(1138)
+cargoHold.push('20 meters')
+console.log(cargoHold)
+//fifth
+console.log(` this is my array ${cargoHold}`)

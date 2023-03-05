@@ -1,0 +1,26 @@
+let people = ['Greg','Mary' , 'Devon' , 'James']
+for(i = 0 ; i<people.length ; i++)
+console.log(people[i])
+people.pop(people.indexOf('Greg'))
+people.pop(people.indexOf('James'))
+people.unshift('Matt')
+people.push('Bharath')
+for(i=0 ;i<people.length ; i++){
+console.log(people[i])
+if(people[i]=='Mary')
+break
+}
+console.log(people.indexOf('Mary'))
+people.sort()
+console.log(people)
+people.splice(0,2)
+console.log(people)
+console.log(people.indexOf('foo'))
+people = ['Greg','Mary' , 'Devon' , 'James']
+people.splice(people.indexOf('Devon'))
+people.push('elizabeth' , 'artie')
+console.log(people)
+withBob = people.concat('bob')
+console.log(withBob)
+
+
